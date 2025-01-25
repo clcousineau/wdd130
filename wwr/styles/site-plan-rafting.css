@@ -2,29 +2,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Quicksand:wght@400&family=Roboto:wght@400=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Quicksand&family=Roboto&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #057BA9   ;
-  --secondary-color: #6CA84E ;
-  --accent1-color: #FECE46;
-  --accent2-color: #067DAB;
+  --primary-color: #1E90FF   ;
+  --secondary-color: #228B22 ;
+  --accent1-color: #FFD700;
+  --accent2-color: #708090;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Farro";
+  --heading-font: "Playball";
   --paragraph-font: "Roboto", "Quicksand", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #057BA9;  /* headlines on a white background */ 
+  --headline-color-on-white: #1E90FF;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #057BA9; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #1E90FF; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #067DAB  ;
-  --nav-link-color: #057BA9;
-  --nav-background-color: #FECE46;
+  --paragraph-background-color: #1E90FF  ;
+  --nav-link-color: #1E90FF;
+  --nav-background-color: #FFD700;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #6CA84E;
+  --nav-hover-background-color: #708090;
 }
 
 
