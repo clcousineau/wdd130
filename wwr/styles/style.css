@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Quicksand&family=Roboto&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -10,6 +12,7 @@ nav a {
     background-color: #FECE46;
     color: #067DAB;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #6CA84E;
@@ -18,9 +21,16 @@ nav a:hover {
 }
 .home-title {
     color: #057BA9;
+    font-family: "Playball", "Bradley Hand", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -31,15 +41,25 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #057BA9;
 }
 body {
     background-color: #6CA84E;
+    font-family: "Quicksand", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 h4 {
     color: black;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: rgba(20,30,13, .7);
@@ -48,24 +68,40 @@ header {
     background-color: #067DAB;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #6CA84E;
     color: #067DAB;
     text-decoration: underline;
 }
+.card-img {
+    border: 10px solid #067DAB;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
 .msg {
     background-color: #067DAB;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: white;
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: black;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -80,4 +116,7 @@ footer a {
 footer a:hover {
     color: #057BA9;
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
