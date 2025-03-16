@@ -183,6 +183,105 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
+/*#river-hero {
+    display: grid;
+}*
+#river-hero img {
+    width: 100%;
+    grid-column: 1/7;
+    grid-row: 1/2;
+}
+#river-hero h1 {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-family: "Playball", "Bradley Hand", sans-serif;
+    grid-column: 1/7;
+    grid-row: 1/2;
+}
+#rivers-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+/*.salmon {
+    display: grid;
+}*
+.salmon h2 {
+    text-align: left;
+    color: white;
+    font-family: "Playball", "Bradley Hand", sans-serif;
+    background-color: #067DAB;
+    padding: 15px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+/*.grand-canyon {
+    display: grid;
+}*
+.grand-canyon h2 {
+    text-align: left;
+    color: white;
+    font-family: "Playball", "Bradley Hand", sans-serif;
+    background-color: #067DAB;
+    padding: 15px;
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+.salmon p {
+    text-align: left;
+    color: white;
+    font-family: "Quicksand", Helvetica, sans-serif;
+    background-color: #067DAB;
+    padding: 15px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+.grand-canyon p {
+    text-align: left;
+    color: white;
+    font-family: "Quicksand", Helvetica, sans-serif;
+    background-color: #067DAB;
+    padding: 15px;
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+/*.gray-canyon {
+    display: grid;
+}*
+.gray-canyon h2 {
+    text-align: right;
+    color: white;
+    font-family: "Playball", "Bradley Hand", sans-serif;
+    background-color: #067DAB;
+    padding: 15px;
+    grid-column: 3/7;
+    grid-row: 3/4;
+}
+.gray-canyon p {
+    text-align: right;
+    color: white;
+    font-family: "Quicksand", Helvetica, sans-serif;
+    background-color: #067DAB;
+    padding: 15px;
+    grid-column: 3/7;
+    grid-row: 3/4;
+}
+.salmon img {
+    width: 100%;
+    grid-column: 4/7;
+    grid-row: 2/3;
+}
+.gray-canyon img {
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+.grand-canyon img {
+    width: 100%;
+    grid-column: 4/7;
+    grid-row: 4/5;
+}*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -224,5 +323,77 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
+    }
+}
+
+#river-hero img {
+    width: 100%;
+}
+
+#river-hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Playball", "Bradley Hand", sans-serif;
+    font-size: 4em;
+}
+
+#rivers-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.river-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: start;
+}
+
+.river-section h2 {
+    grid-column: 1 / -1;
+    background-color: #067DAB;
+    color: white;
+    padding: 15px;
+    font-family: "Playball", "Bradley Hand", sans-serif;
+}
+
+.river-section img {
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.river-section p {
+    color: white;
+    background-color: #067DAB;
+    padding: 15px;
+    line-height: 1.5em;
+}
+
+.gray-canyon {
+    direction: rtl;
+}
+
+.gray-canyon img {
+    justify-self: end;
+}
+
+.gray-canyon h2, .gray-canyon p {
+    text-align: right;
+}
+
+.salmon h2 .salmon p {
+    text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+    #rivers-main {
+        padding: 20px;
+    }
+
+    .river-section {
+        grid-template-columns: 1fr;
     }
 }
